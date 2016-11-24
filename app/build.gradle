@@ -40,8 +40,8 @@ android {
 }
 
 dependencies {
-    releaseCompile project(path: ':flgw', configuration: 'release')
-    debugCompile project(path: ':flgw', configuration: 'debug')
+    releaseCompile project(path: ':glfw', configuration: 'release')
+    debugCompile project(path: ':glfw', configuration: 'debug')
 
     compile fileTree(dir: 'libs', include: ['*.jar'])
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
